@@ -1,6 +1,6 @@
-import LogItemModel from "./Models/LogItemModel";
+import LogItemModel from "./models/LogItemModel";
 import GlobalState from "./GlobalState";
-import { isStringEmptyOrNull } from "./Guards/StringGuard"
+import { isStringEmptyOrNull } from "./guards/StringGuard"
 
 function doSearch(query: string): LogItemModel[] {
     var instance: GlobalState = GlobalState.getInstance();

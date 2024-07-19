@@ -1,5 +1,5 @@
-import LogItemModel from "./Models/LogItemModel";
-import { isNullOrUndefined } from "./Guards/NullOrUndefinedGuard";
+import LogItemModel from "./models/LogItemModel";
+import { isNullOrUndefined } from "./guards/NullOrUndefinedGuard";
 class GlobalState {
     private static instance: GlobalState;
     private logsInitialState: LogItemModel[] = [] as LogItemModel[];

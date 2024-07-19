@@ -1,4 +1,4 @@
-import LogItemModel from "../Models/LogItemModel";
+import LogItemModel from "../models/LogItemModel";
 import doSearch from "../DataService"
 import { RenderTable } from "../components/TableRenderer";
 

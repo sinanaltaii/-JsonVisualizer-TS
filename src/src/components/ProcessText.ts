@@ -1,6 +1,6 @@
 import { RenderTable } from "./TableRenderer";
-import LogItemModel from "../Models/LogItemModel";
-import LogItemRaw from "../Models/LogItemRaw";
+import LogItemModel from "../models/LogItemModel";
+import LogItemRaw from "../models/LogItemRaw";
 import GlobalState from "../GlobalState";
 import formatDate from "../DateFomatter";
 

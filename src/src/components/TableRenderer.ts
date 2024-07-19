@@ -1,4 +1,4 @@
-import LogItemModel from "../Models/LogItemModel";
+import LogItemModel from "../models/LogItemModel";
 
 export function RenderTable(list: LogItemModel[]) {
 

@@ -1,5 +1,5 @@
-import {  handleFileUpload, handleDragAndDrop } from "./Handlers/FileUploadHandler.ts"
-import handleQuerySearch from "./Handlers/SearchHandler.ts";
+import {  handleFileUpload, handleDragAndDrop } from "./handlers/FileUploadHandler.ts"
+import handleQuerySearch from "./handlers/SearchHandler.ts";
 
 handleFileUpload();
 handleDragAndDrop();
