@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+:root {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  --catalinaBlue: #06276d
+}
+
+#data-table {
+  table-layout: auto;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0.5%;
+}
+
+#data-table thead {
+  border-bottom: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
+
+#data-table td, th {
+  text-align: left;
+  padding: 2px;
+}
+
+#data-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#data-table tbody tr:hover{
+  background-color: #f1f1f1;
+}
+.query-submit {
+  border: none;
+  min-width: 100;
+}
+
+#query {
+  display: flexbox;
+  flex-direction: row;
+  background-image: url(/src/static/images/searchicon.png);
+  background-position: 10px 13px;
+  background-repeat: no-repeat;
+   width: 74%;
+  padding: 12px 0px 10px 35px;
+  border: 1px solid #ddd;
+  font-size: large;
+}
+
+#submit {
+  /* display: inline-flexbox; */
+  width: 23%;
+  padding: 10px 0px 10.5px 0px;
+  font-size: 20px;
+  margin-top: 0.5%;
+  background: var(--catalinaBlue);
+  color: greenyellow;
+  text-align: center;
+  align-items: center;
+  border: 1px solid var(--catalinaBlue);
+}
+
+#submit:hover  {
+  background-color: #0d45a5;
+  transition: background-color .2s ease-in-out;
+}
+
+input[type=file] {
+  width: 30%;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #555;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: var(--catalinaBlue);
+  padding: 12px 20px;
+  color: greenyellow;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+.drop-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  font-size: 18px;
+  align-items: center;
+  border: 1px dashed #555;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.drop-container:hover {
+  font-size: 22px;
+  color: var(--catalinaBlue);
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  transition: font-size .3s ease-in-out;
+}
